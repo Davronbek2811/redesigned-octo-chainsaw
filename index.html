@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="output.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="bg-[#FFFFFF] h-[140px] px-[20px] border-[#DEDBDB] border-[2px]">
+        <div class="max-w-[1440px] mx-auto">
+            <div class="flex justify-between items-center h-[140px]">
+                <img src="./img/logo.png" alt="">
+
+                <div class="flex items-center gap-2 cursor-pointer">
+                    <img src="./img/Zemlya.png" alt="">
+                    <h1>O`zb</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="max-w-[1440px] mx-auto flex justify-center">
+            <div class="w-[650px] h-[766px] mt-[100px] bg-[#FFF] border-[1px] rounded-[50px] border-[#DEDBDB]">
+                <div class="flex justify-between pt-[66px] px-[30px]">
+                    <img src="./img/logo.png" alt="">
+                    <div class="flex items-center gap-3">
+                        <h1 class="text-[#F0400F] font-bold text-[24px]">Offerta imzolash</h1>
+                        <img src="./img/Offert hizmat.png" alt="">
+                    </div>
+                </div>
+
+                <h1 class="text-center text-[#0E0D5D] text-[48px] font-bold mt-[130px]">Spacega xush kelibsiz</h1>
+
+                <div
+                    class="flex justify-between gap-3 items-center px-[25px] rounded-[20px] mx-auto  w-[533px] h-[70px] bg-[#F5F5F5]">
+                    <button class="w-[255px] h-[54px] rounded-[15px] bg-[#FFF]">O’quvchiman</button>
+                    <button class="w-[255px] h-[54px] rounded-[15px] bg-[#eee9e9]">Ota-onaman</button>
+                </div>
+
+                <div class="flex flex-col">
+                    <input
+                        id="inputId"
+                        class="w-[513px] h-[70px] rounded-[20px] outline-none ps-[20px] mx-auto mt-[20px] bg-[#F5F5F5]"
+                        type="text" placeholder="Modme Id or Phone number">
+                    <div
+                        class="w-[513px] h-[70px] rounded-[20px] outline-none ps-[20px] mx-auto mt-[20px] bg-[#F5F5F5] flex items-center justify-between px-[20px]">
+                        <input id="inputPassword" class="outline-none w-fullpl/." type="password" placeholder="Password">
+                        <img class="cursor-pointer" id="Eye" src="./img/Eye.png" alt="">
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center gap-3 text-center mt-[20px]">
+                    <a class=""
+                        href="https://media.istockphoto.com/id/1133341293/photo/mother-and-baby.jpg?s=1024x1024&w=is&k=20&c=hMNaMVLq_hoU0Ni6492L7oalbKV1AWjy9m94aIUOQsQ=">QR
+                        code orqali kirish</a>
+                    <div class="flex justify-end items-center pe-[30px]">
+                        <button id="btn" class="w-[202px] h-[67px] rounded-[20px] bg-[#F69E86] hover:bg-[#ff4b1a] text-white font-bold text-[24px] cursor-not-allowed  transition-all ease-in-out duration-200" disabled="true">Подтвердить</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./index.js"></script>
+
+</html>
